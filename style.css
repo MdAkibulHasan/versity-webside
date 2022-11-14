@@ -578,3 +578,43 @@ h3 {
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
+
+/* ===============faculty================= */
+.row-1{
+    padding: 7% 7% 0 7%;
+}
+.row-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.about-col-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.row-1 .about-col-1 img{
+    border-radius: 50%;
+    border: 5px solid #222;
+    width: 90%;
+   
+}
+.about-col-1 p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+    position: relative;
+    text-align: center;
+    right: 5%;
+}
+
+
+@media(max-width:700px){
+    .row-1{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;  
+    }  
+}
